@@ -27,7 +27,7 @@ export default function App() {
                   the power of the platforms back into the hands of the people.
                   But is it really fulfilling its promise?
                 </p>
-                <button className='bg-orange-700 text-white px-4 py-2 tracking-widest text-sm rounded-sm'>
+                <button className='bg-orange-700 text-white px-4 py-2 tracking-widest text-sm rounded-sm hover:bg-slate-900 hover:font-semibold transition-all'>
                   READ MORE
                 </button>
               </div>
@@ -37,7 +37,7 @@ export default function App() {
             <h3 className='text-3xl text-yellow-300 font-bold'>New</h3>
             <article className='flex flex-col gap-5 flex-1'>
               <div className='flex flex-col gap-4'>
-                <h4 className='text-xl font-semibold'>
+                <h4 className='text-xl font-semibold hover:text-yellow-300 cursor-pointer'>
                   Hydrogen VS Electric Cars
                 </h4>
                 <p className='text-gray-500 font-medium'>
@@ -46,7 +46,7 @@ export default function App() {
                 <hr className='h-1 text-gray-400' />
               </div>
               <div className='flex flex-col gap-4'>
-                <h4 className='text-xl font-semibold'>
+                <h4 className='text-xl font-semibold hover:text-yellow-300 cursor-pointer'>
                   The Downsides of AI Artistry
                 </h4>
                 <p className='text-gray-500 font-medium'>
@@ -56,7 +56,7 @@ export default function App() {
                 <hr className='h-1' />
               </div>
               <div className='flex flex-col gap-4'>
-                <h4 className='text-xl font-semibold'>
+                <h4 className='text-xl font-semibold hover:text-yellow-300 cursor-pointer'>
                   Is VC Funding Drying Up?
                 </h4>
                 <p className='text-gray-500 font-medium'>
